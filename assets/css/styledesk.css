@@ -1,0 +1,48 @@
+@media (min-width: 1200px) {
+
+    .menuDesk{
+        display: block;
+    }
+    .menuBurger{
+        display: none;
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        margin: 0;
+        position: relative;
+        z-index: 3;  
+    }
+    header p {
+        font-size: 22px;
+    }
+    h1 {
+        font-size: 52px;
+    }
+    .align{
+        display: flex;
+        flex-direction: row;
+        gap: 250px;
+        align-items: center;
+    }
+    .divLeft {
+        width: 50%;
+        margin-left: 90px;
+        position: absolute;
+        z-index: 3;  
+    }
+    .image{
+        left:50%;
+        position: absolute;
+        z-index: 1;
+        margin-top: -8%;
+        margin-right: -10%;
+    }
+    .container{
+        position:relative;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
